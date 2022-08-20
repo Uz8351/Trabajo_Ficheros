@@ -1,0 +1,29 @@
+
+
+-----------------------------------
+**Non scholae, sed vitae discere.**
+-----------------------------------
+
+Práctica en lenguaje C.
+---------------------------
+Utilización y creación de Ficheros.
+--------------------------------
+El programa fue realizado en plataforma
+LINUX Ubuntu 20.04.4 LTS.
+Bajo el standard ANSI C.-C-11
+Para ejecutar bajo consola de linux.
+-------------------------------------
+Otra forma de ejecución:
+Si no se desea utilizar "make" para su ejecución,
+y hacerlo bajo directorio en consola Linux.
+Deberá estar bajo dicho directorio los ficheros: Variables.h
+y  main.c.
+Se podrá ejecutar su compilación, según las exigencias de 
+depuración de la siguiente forma:
+-----------------------------------------------
+gcc main.c -Wall -Wextra -Werror -Wno-format  -o Descriptor_Archivo
+-----------------------------------------------------------
+gcc -Wall main.c -o Descriptor_Archivo
+-----------------------------------------
+gcc main.c -o Descriptor_Archivo
+
